@@ -1,0 +1,23 @@
+name: stylegan
+channels:
+  - pytorch
+  - defaults
+  - nvidia
+dependencies:
+  - python=3.9
+  - pip=20.3
+  - numpy
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=12.1
+  - pip:
+    - scipy
+    - click
+    - tqdm
+    - imageio
+    - imageio[ffmpeg]
+    - imageio[pyav]
+
+
+
+
